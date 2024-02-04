@@ -1,0 +1,58 @@
+.header{
+	background-color: blue;
+	background-image: linear-gradient(green, red);
+}
+
+.section{
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+h1{
+	text-decoration: overline underline;
+	font-family: "copperplate", Papyrus, fantasy;
+}
+
+h3{
+	color: blue;
+}
+
+body{
+	background-color: blue;
+	font-family: 'Nova Square', 'Roboto', sans-serif;
+	background-image: url(https://www.feathr.com/wp-content/uploads/2022/11/pcDlkM_Q-768x512.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+
+p{
+	color: blue;
+}
+
+img{
+	width: 200px;
+}
+
+.product{
+	border: 6px dotted red;
+	border-radius: 8px;
+	width: 400px;
+	padding: 10px;
+	text-align: center;
+	background-color: green;
+	margin: 10px;
+	
+}
+
+.footer{
+	background-color: red;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-image: linear-gradient(green, red);
+}
